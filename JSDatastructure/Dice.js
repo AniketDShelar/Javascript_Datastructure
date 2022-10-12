@@ -17,7 +17,7 @@ while ((one < dieRoll) && (two < dieRoll) && (three < dieRoll) && (four < dieRol
     let value = Math.floor((Math.random() * 6) + 1);
     dice[key] = value;
 
-    switch (value) {
+    switch (value){
         case 1:
             console.log(value + " " + one);
             one++;
